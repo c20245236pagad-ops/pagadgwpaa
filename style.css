@@ -57,7 +57,7 @@ form{
         padding: 15px;
     }
     h1{
-        font-size: 75px;
+        font-size: 80px;
         color: red ;
     }
     span{
@@ -72,3 +72,21 @@ form{
         color: blue;
     }
 }
+nav a {
+    transition: color 0.5s ease;
+}
+nav a:hover {
+    color: pink;
+}
+buttom {
+    background-color:black;
+    color: white;
+    padding:12px 20px;
+    boarder-radius: 16px;
+    transition: background-color is ease;
+}
+buttom:hover {
+    background-color: pink;
+    clor: black;
+}
+

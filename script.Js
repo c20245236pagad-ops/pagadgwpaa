@@ -28,3 +28,10 @@ heading.textContent = "My Portfolio";
 projectsHeading.textContent = "My Projects";
 contactHeading.textContent = "Let's Connect";
 servicesHeading.textContent = " Services";
+
+//.style
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+projectsHeading.style.color = "purple";
+contactHeading.style.color = "purple";
+servicesHeading.style.color = "purple";

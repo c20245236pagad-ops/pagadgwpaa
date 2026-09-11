@@ -12,29 +12,19 @@ console.log("Age: " + age);
 console.log("Number: " + myNumber);
 console.log("Address: " + myAddress);
 
-const heading = document.querySelector("h1")
 
-const contact = document.querySelector(".contact");
-const services = document.querySelector(".services");
-
+// querySelector
+const heading = document.querySelector("h1");
 console.log(heading);
-console.log(contact);
-console.log(services);
+const projectsHeading = document.querySelector("#projects h2");
+console.log(projectsHeading);
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
+const servicesHeading = document.querySelector("#services h2");
+console.log(servicesHeading);
 
-
-
-// Functions
-function greet(name) {
-    return `Good morning, ${name}`;
-}
-console.log(greet("Ronalyn"));
-
-//
-function mdas(num1,num2) {
-    let m = num1 * num2;
-    let d = num1 / num2;
-    let a = num1 + num2;
-    let s = num1 - num2;
-    return (`Values: ${num1} and ${num2}. \nProduct ${m},\nQuotient: ${d}, \nsum: ${a} \ndiff: ${s} ` );
-}
-console.log(mdas(5, 3));
+// Text Content
+heading.textContent = "My Portfolio";
+projectsHeading.textContent = "My Projects";
+contactHeading.textContent = "Let's Connect";
+servicesHeading.textContent = " Services";

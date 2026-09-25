@@ -30,6 +30,15 @@ min-width: 300px;
 border: 1px solid black;
 padding:  20px;
 }
+#services{
+    color: rgb(70 ,45, 7);
+}
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: green;
+}
 
 form{
     display: flex;
@@ -86,5 +95,5 @@ button:hover {
     background-color: red;
 }
 #projects{
-    background-color: orange;
+    background-color: blue;
 }
